@@ -64,11 +64,13 @@ export function Login() {
     <>
     <form className={Style.loginform} onSubmit={handleSubmit(onSubmit)}>
     <h4>{loginData.username ? `Du er nu logget ind som ${loginData.username}` : message}</h4>
-        <label>Username</label>
+        <label>Brugernavn:</label>
         <input placeholder="Username" name="username" {...register("username", { required: true })}></input>
             {errors.username && <span>Udfyld username</span>}
 
-        <label>Password</label>
+        <label>Kodeord:
+          
+        </label>
         <input placeholder="Password" name="password" type="password" {...register('password', { required: true })}></input>
             {errors.password && <span>Udfyld password</span>}
 

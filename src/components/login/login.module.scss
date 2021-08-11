@@ -1,15 +1,17 @@
 .loginform {
   width: 40%;
-  margin: 15% auto;
+  margin: 13% 31%;
+  font-family: consolas;
 
   h4 {
     text-align: start;
     margin-bottom: 30px;
     font-size: 1.5rem;
+
   }
   label {
     display: block;
-    font-weight: 500;
+    font-weight: bold;
   }
   span {
     display: block;
@@ -35,6 +37,7 @@
   }
   .loginbtn {
     cursor: pointer;
+    font-family: consolas;
     padding: 10px 50px;
     background-color: rgb(3, 173, 3);
     color: white;
@@ -47,6 +50,7 @@
   }
   .logoutbtn {
     cursor: pointer;
+    font-family: consolas;
     padding: 10px 50px;
     background-color: rgb(173, 28, 3);
     color: white;

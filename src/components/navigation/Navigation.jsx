@@ -6,7 +6,7 @@ export function Navigation() {
     <div>
        <nav>
           <ul>
-            <li><Link to="/app">Hjem</Link></li>
+            <li><Link to="/">Hjem</Link></li>
             <li><Link to="/login">Login</Link></li>
           </ul>
         </nav>
