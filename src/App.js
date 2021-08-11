@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navigation } from './components/navigation/Navigation';
 import { LoginPage } from './pages/login/LoginPage';
 
@@ -9,7 +9,7 @@ function App() {
       <Navigation />
 
       <Switch>
-        <Route path="/">
+        <Route path="/login">
           <LoginPage />
         </Route>        
 
